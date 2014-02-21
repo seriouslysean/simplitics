@@ -5,7 +5,7 @@ Plugin URI: https://github.com/seriouslysean/simplitics
 Description: Simplitics adds a textarea to the general settings page for you to add tracking snippets to your site.
 Author: Sean Kennedy
 Author URI: http://devjunkyard.com
-Version: 1.0.0
+Version: 1.0.1
 License: MIT
 */
 if (!defined('ABSPATH')) exit;
@@ -18,7 +18,7 @@ class Simplitics {
 
     const NAME = 'Simplitics';
     const NAME_LOWER = 'simplitics';
-    const VERSION = '1.0.0';
+    const VERSION = '1.0.1';
     const SLUG = 'simplitics';
     const DOWNLOAD_URL = 'http://wordpress.org/plugins/simplitics';
     const SETTINGS_CLASS = 'simplitics';
@@ -96,7 +96,8 @@ class Simplitics {
     }
 
     public function wpHead() {
-        require_once $this->getPluginPath.'templates/trackingcode.php';
+        if (!is_preview())
+            require_once $this->getPluginPath.'templates/trackingcode.php';
     }
 
     public function adminFooter() {

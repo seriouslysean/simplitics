@@ -26,6 +26,10 @@ Feel free to post any bugs, feature requests or comments on the [Simplitics Issu
 
 ## Changelog
 
+### 1.0.1
+
+* Prevented code from showing during a preview
+
 ### 1.0.0
 
 * Initial release
