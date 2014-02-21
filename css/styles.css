@@ -1,0 +1,69 @@
+.simplitics .description {
+    position: relative;
+    padding-right: 175px;
+}
+.simplitics .share {
+    display: block;
+    font-size: .75rem;
+    padding-right: 1%;
+    position: absolute;
+    width: 200px;
+    text-align: right;
+    text-align: right;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+.simplitics form {
+    display: none!important;
+}
+
+/* Buttons */
+.simplitics .share .button {
+    color: #FFF;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    width: auto;
+    text-align: center;
+    font-size: 10px;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 6px;
+    opacity:.4;
+    transition: opacity .15s ease-in-out;
+   -moz-transition: opacity .15s ease-in-out;
+   -webkit-transition: opacity .15s ease-in-out;
+}
+.simplitics .share .button:hover,
+.simplitics .share .button:active {opacity:1;}
+.simplitics .share .button.button-donate {
+    background-color: #e48e07;
+    background-image: -webkit-linear-gradient(#e7a439, #e48e07);
+    background-image: linear-gradient(to bottom, #e7a439, #e48e07);
+    border-color: #e7a439 #e7a439 #ba7604;
+    box-shadow: 0 1px 0 rgba(230, 192, 120, 0.5) inset;
+}
+.simplitics .share .button.button-donate:hover {background:#e48e07;}
+.simplitics .share .button.button-rate {
+    background-color: #999;
+    background-image: -webkit-linear-gradient(#888, #666);
+    background-image: linear-gradient(to bottom, #888, #666);
+    border-color: #777 #777 #444;
+    box-shadow: 0 1px 0 rgba(180, 180, 180, 0.5) inset;
+}
+.simplitics .share .button.button-rate:hover {background:#666;}
+.simplitics .share .button.button-tweet {
+    background-color: #1094bf;
+    background-image: -webkit-linear-gradient(#2aadd8, #1094bf);
+    background-image: linear-gradient(to bottom, #2aadd8, #1094bf);
+    border-color: #10a1d1 #10a1d1 #0e80a5;
+    box-shadow: 0 1px 0 rgba(120, 203, 230, 0.5) inset;
+}
+.simplitics .share .button.button-tweet:hover {background:#1094bf;}
+.simplitics .share .button.button-share {
+    background-color: #3b5998;
+    background-image: -webkit-linear-gradient(#4e69a2, #3b5998);
+    background-image: linear-gradient(to bottom, #4e69a2, #3b5998);
+    border-color: #4e69a2 #3b5998 #294079;
+    box-shadow: 0 1px 0 rgba(120, 203, 230, 0.5) inset;
+}
+.simplitics .share .button.button-share:hover {background:#3b5998;}
