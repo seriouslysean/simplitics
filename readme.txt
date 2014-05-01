@@ -3,8 +3,8 @@ Contributors: seriouslysean
 Donate link: http://devjunkyard.com/simplitics/
 Tags: Analytics, Tracking, Tracking Code, Javascript, JS, Simple
 Requires at least: 3.5
-Tested up to: 3.8.1
-Stable tag: 1.0.1
+Tested up to: 3.9
+Stable tag: 1.0.2
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
@@ -38,7 +38,11 @@ Feel free to post any bugs, feature requests or comments on the [Simplitics Issu
 
 == Changelog ==
 
-- 1.0.1 =
+= 1.0.2 =
+
+* Updating readme for WordPress 3.9
+
+= 1.0.1 =
 
 * Added a fix to prevent the code from showing during a preview
 
